@@ -1,32 +1,44 @@
 {
-   "chainName":"hello-world",
+   "chainName":"test-chaincode",
    "deployWaitTime":"60",
    "user": {
-	"username": "JohnDoe",
+	"username": "user_type1_0",
         "affiliation" : "group1"
    },
    "deployRequest":{
       "chaincodePath":"chaincode",
       "functionName":"init",
-      "args":[
-         "a",
-         "100",
-         "b",
-         "200"
-      ]
+      "args":[]
    },
    "invokeRequest":{
       "functionName":"invoke",
       "args":[
-         "a",
-         "b",
-         "10"
+         "id00000000000000000000",
+         "name000000000000000a5aa7a",
+         "identity_type000000000000000a5aa7a",
+         "identity_code000000000000000a5aa7a",
+         "account_name000000000000000a5aa7a",
+         "card_branch_name000000000000000a5aa7a",
+         "card_id000000000000000a5aa7a",
+         "cnaps_code000000000000000a5aa7a",
+         "phone_number000000000000000a5aa7a",
+         "home_address000000000000000a5aa7a",
+         "education000000000000000a5aa7a",
+         "company000000000000000a5aa7a",
+         "job_number000000000000000a5aa7a",
+         "job_address000000000000000a5aa7a",
+         "job_title000000000000000a5aa7a",
+         "certificate00000000000000a5aa7a",
+         "experiments000000000000000a5aa7a",
+         "rewards000000000000000a5aa7a",
+         "rpersonal_Valuation000000000000000a5aa7a",
+         "interest000000000000000a5aa7a"
       ]
    },
    "queryRequest":{
       "functionName":"query",
       "args":[
-         "a"
+         "id00000000000000000000"
       ]
    }
 }
